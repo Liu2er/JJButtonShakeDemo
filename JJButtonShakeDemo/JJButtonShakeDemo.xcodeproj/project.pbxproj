@@ -15,6 +15,7 @@
 		58F558841DB46E5100FD61E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F558821DB46E5100FD61E3 /* LaunchScreen.storyboard */; };
 		58F5588F1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5588E1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m */; };
 		58F5589A1DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F558991DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m */; };
+		58F558A91DB46E9400FD61E3 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F558A81DB46E9400FD61E3 /* JJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		58F558951DB46E5100FD61E3 /* JJButtonShakeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJButtonShakeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F558991DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJButtonShakeDemoUITests.m; sourceTree = "<group>"; };
 		58F5589B1DB46E5100FD61E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F558A71DB46E9400FD61E3 /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		58F558A81DB46E9400FD61E3 /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +106,8 @@
 			children = (
 				58F558771DB46E5100FD61E3 /* AppDelegate.h */,
 				58F558781DB46E5100FD61E3 /* AppDelegate.m */,
-				58F5587A1DB46E5100FD61E3 /* ViewController.h */,
-				58F5587B1DB46E5100FD61E3 /* ViewController.m */,
-				58F5587D1DB46E5100FD61E3 /* Main.storyboard */,
-				58F558801DB46E5100FD61E3 /* Assets.xcassets */,
-				58F558821DB46E5100FD61E3 /* LaunchScreen.storyboard */,
-				58F558851DB46E5100FD61E3 /* Info.plist */,
+				58F558A71DB46E9400FD61E3 /* JJViewController.h */,
+				58F558A81DB46E9400FD61E3 /* JJViewController.m */,
 				58F558741DB46E5100FD61E3 /* Supporting Files */,
 			);
 			path = JJButtonShakeDemo;
@@ -117,6 +116,12 @@
 		58F558741DB46E5100FD61E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58F5587A1DB46E5100FD61E3 /* ViewController.h */,
+				58F5587B1DB46E5100FD61E3 /* ViewController.m */,
+				58F5587D1DB46E5100FD61E3 /* Main.storyboard */,
+				58F558801DB46E5100FD61E3 /* Assets.xcassets */,
+				58F558821DB46E5100FD61E3 /* LaunchScreen.storyboard */,
+				58F558851DB46E5100FD61E3 /* Info.plist */,
 				58F558751DB46E5100FD61E3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F558A91DB46E9400FD61E3 /* JJViewController.m in Sources */,
 				58F5587C1DB46E5100FD61E3 /* ViewController.m in Sources */,
 				58F558791DB46E5100FD61E3 /* AppDelegate.m in Sources */,
 				58F558761DB46E5100FD61E3 /* main.m in Sources */,

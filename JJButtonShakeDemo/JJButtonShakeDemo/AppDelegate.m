@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JJViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JJViewController *JJVC = [[JJViewController alloc] init];
+    self.window.rootViewController = JJVC;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
