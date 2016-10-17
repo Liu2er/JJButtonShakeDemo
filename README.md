@@ -1,0 +1,2 @@
+# JJButtonShakeDemo
+这是一个点击button后button抖动的demo，参考了开源库PPNumberButton。
