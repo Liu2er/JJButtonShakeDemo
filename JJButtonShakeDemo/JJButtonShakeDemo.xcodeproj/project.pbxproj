@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58F558761DB46E5100FD61E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F558751DB46E5100FD61E3 /* main.m */; };
+		58F558791DB46E5100FD61E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F558781DB46E5100FD61E3 /* AppDelegate.m */; };
+		58F5587C1DB46E5100FD61E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5587B1DB46E5100FD61E3 /* ViewController.m */; };
+		58F5587F1DB46E5100FD61E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F5587D1DB46E5100FD61E3 /* Main.storyboard */; };
+		58F558811DB46E5100FD61E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F558801DB46E5100FD61E3 /* Assets.xcassets */; };
+		58F558841DB46E5100FD61E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F558821DB46E5100FD61E3 /* LaunchScreen.storyboard */; };
+		58F5588F1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5588E1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m */; };
+		58F5589A1DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F558991DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58F5588B1DB46E5100FD61E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F558691DB46E5100FD61E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F558701DB46E5100FD61E3;
+			remoteInfo = JJButtonShakeDemo;
+		};
+		58F558961DB46E5100FD61E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F558691DB46E5100FD61E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F558701DB46E5100FD61E3;
+			remoteInfo = JJButtonShakeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58F558711DB46E5100FD61E3 /* JJButtonShakeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJButtonShakeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F558751DB46E5100FD61E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58F558771DB46E5100FD61E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58F558781DB46E5100FD61E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58F5587A1DB46E5100FD61E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58F5587B1DB46E5100FD61E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58F5587E1DB46E5100FD61E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58F558801DB46E5100FD61E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58F558831DB46E5100FD61E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58F558851DB46E5100FD61E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F5588A1DB46E5100FD61E3 /* JJButtonShakeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJButtonShakeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F5588E1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJButtonShakeDemoTests.m; sourceTree = "<group>"; };
+		58F558901DB46E5100FD61E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F558951DB46E5100FD61E3 /* JJButtonShakeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJButtonShakeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F558991DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJButtonShakeDemoUITests.m; sourceTree = "<group>"; };
+		58F5589B1DB46E5100FD61E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F5586E1DB46E5100FD61E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F558871DB46E5100FD61E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F558921DB46E5100FD61E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F558681DB46E5100FD61E3 = {
+			isa = PBXGroup;
+			children = (
+				58F558731DB46E5100FD61E3 /* JJButtonShakeDemo */,
+				58F5588D1DB46E5100FD61E3 /* JJButtonShakeDemoTests */,
+				58F558981DB46E5100FD61E3 /* JJButtonShakeDemoUITests */,
+				58F558721DB46E5100FD61E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58F558721DB46E5100FD61E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F558711DB46E5100FD61E3 /* JJButtonShakeDemo.app */,
+				58F5588A1DB46E5100FD61E3 /* JJButtonShakeDemoTests.xctest */,
+				58F558951DB46E5100FD61E3 /* JJButtonShakeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F558731DB46E5100FD61E3 /* JJButtonShakeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				58F558771DB46E5100FD61E3 /* AppDelegate.h */,
+				58F558781DB46E5100FD61E3 /* AppDelegate.m */,
+				58F5587A1DB46E5100FD61E3 /* ViewController.h */,
+				58F5587B1DB46E5100FD61E3 /* ViewController.m */,
+				58F5587D1DB46E5100FD61E3 /* Main.storyboard */,
+				58F558801DB46E5100FD61E3 /* Assets.xcassets */,
+				58F558821DB46E5100FD61E3 /* LaunchScreen.storyboard */,
+				58F558851DB46E5100FD61E3 /* Info.plist */,
+				58F558741DB46E5100FD61E3 /* Supporting Files */,
+			);
+			path = JJButtonShakeDemo;
+			sourceTree = "<group>";
+		};
+		58F558741DB46E5100FD61E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F558751DB46E5100FD61E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58F5588D1DB46E5100FD61E3 /* JJButtonShakeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				58F5588E1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m */,
+				58F558901DB46E5100FD61E3 /* Info.plist */,
+			);
+			path = JJButtonShakeDemoTests;
+			sourceTree = "<group>";
+		};
+		58F558981DB46E5100FD61E3 /* JJButtonShakeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58F558991DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m */,
+				58F5589B1DB46E5100FD61E3 /* Info.plist */,
+			);
+			path = JJButtonShakeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F558701DB46E5100FD61E3 /* JJButtonShakeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F5589E1DB46E5100FD61E3 /* Build configuration list for PBXNativeTarget "JJButtonShakeDemo" */;
+			buildPhases = (
+				58F5586D1DB46E5100FD61E3 /* Sources */,
+				58F5586E1DB46E5100FD61E3 /* Frameworks */,
+				58F5586F1DB46E5100FD61E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJButtonShakeDemo;
+			productName = JJButtonShakeDemo;
+			productReference = 58F558711DB46E5100FD61E3 /* JJButtonShakeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58F558891DB46E5100FD61E3 /* JJButtonShakeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F558A11DB46E5100FD61E3 /* Build configuration list for PBXNativeTarget "JJButtonShakeDemoTests" */;
+			buildPhases = (
+				58F558861DB46E5100FD61E3 /* Sources */,
+				58F558871DB46E5100FD61E3 /* Frameworks */,
+				58F558881DB46E5100FD61E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F5588C1DB46E5100FD61E3 /* PBXTargetDependency */,
+			);
+			name = JJButtonShakeDemoTests;
+			productName = JJButtonShakeDemoTests;
+			productReference = 58F5588A1DB46E5100FD61E3 /* JJButtonShakeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58F558941DB46E5100FD61E3 /* JJButtonShakeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F558A41DB46E5100FD61E3 /* Build configuration list for PBXNativeTarget "JJButtonShakeDemoUITests" */;
+			buildPhases = (
+				58F558911DB46E5100FD61E3 /* Sources */,
+				58F558921DB46E5100FD61E3 /* Frameworks */,
+				58F558931DB46E5100FD61E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F558971DB46E5100FD61E3 /* PBXTargetDependency */,
+			);
+			name = JJButtonShakeDemoUITests;
+			productName = JJButtonShakeDemoUITests;
+			productReference = 58F558951DB46E5100FD61E3 /* JJButtonShakeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F558691DB46E5100FD61E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "刘佳杰";
+				TargetAttributes = {
+					58F558701DB46E5100FD61E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DJYQ9E2R5Z;
+						ProvisioningStyle = Automatic;
+					};
+					58F558891DB46E5100FD61E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DJYQ9E2R5Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58F558701DB46E5100FD61E3;
+					};
+					58F558941DB46E5100FD61E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DJYQ9E2R5Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58F558701DB46E5100FD61E3;
+					};
+				};
+			};
+			buildConfigurationList = 58F5586C1DB46E5100FD61E3 /* Build configuration list for PBXProject "JJButtonShakeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58F558681DB46E5100FD61E3;
+			productRefGroup = 58F558721DB46E5100FD61E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F558701DB46E5100FD61E3 /* JJButtonShakeDemo */,
+				58F558891DB46E5100FD61E3 /* JJButtonShakeDemoTests */,
+				58F558941DB46E5100FD61E3 /* JJButtonShakeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F5586F1DB46E5100FD61E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F558841DB46E5100FD61E3 /* LaunchScreen.storyboard in Resources */,
+				58F558811DB46E5100FD61E3 /* Assets.xcassets in Resources */,
+				58F5587F1DB46E5100FD61E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F558881DB46E5100FD61E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F558931DB46E5100FD61E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F5586D1DB46E5100FD61E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5587C1DB46E5100FD61E3 /* ViewController.m in Sources */,
+				58F558791DB46E5100FD61E3 /* AppDelegate.m in Sources */,
+				58F558761DB46E5100FD61E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F558861DB46E5100FD61E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5588F1DB46E5100FD61E3 /* JJButtonShakeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F558911DB46E5100FD61E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5589A1DB46E5100FD61E3 /* JJButtonShakeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58F5588C1DB46E5100FD61E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F558701DB46E5100FD61E3 /* JJButtonShakeDemo */;
+			targetProxy = 58F5588B1DB46E5100FD61E3 /* PBXContainerItemProxy */;
+		};
+		58F558971DB46E5100FD61E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F558701DB46E5100FD61E3 /* JJButtonShakeDemo */;
+			targetProxy = 58F558961DB46E5100FD61E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58F5587D1DB46E5100FD61E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F5587E1DB46E5100FD61E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58F558821DB46E5100FD61E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F558831DB46E5100FD61E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58F5589C1DB46E5100FD61E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58F5589D1DB46E5100FD61E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F5589F1DB46E5100FD61E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
+				INFOPLIST_FILE = JJButtonShakeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJButtonShakeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58F558A01DB46E5100FD61E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
+				INFOPLIST_FILE = JJButtonShakeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJButtonShakeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58F558A21DB46E5100FD61E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
+				INFOPLIST_FILE = JJButtonShakeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJButtonShakeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJButtonShakeDemo.app/JJButtonShakeDemo";
+			};
+			name = Debug;
+		};
+		58F558A31DB46E5100FD61E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
+				INFOPLIST_FILE = JJButtonShakeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJButtonShakeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJButtonShakeDemo.app/JJButtonShakeDemo";
+			};
+			name = Release;
+		};
+		58F558A51DB46E5100FD61E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
+				INFOPLIST_FILE = JJButtonShakeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJButtonShakeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJButtonShakeDemo;
+			};
+			name = Debug;
+		};
+		58F558A61DB46E5100FD61E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
+				INFOPLIST_FILE = JJButtonShakeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJButtonShakeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJButtonShakeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F5586C1DB46E5100FD61E3 /* Build configuration list for PBXProject "JJButtonShakeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F5589C1DB46E5100FD61E3 /* Debug */,
+				58F5589D1DB46E5100FD61E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F5589E1DB46E5100FD61E3 /* Build configuration list for PBXNativeTarget "JJButtonShakeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F5589F1DB46E5100FD61E3 /* Debug */,
+				58F558A01DB46E5100FD61E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58F558A11DB46E5100FD61E3 /* Build configuration list for PBXNativeTarget "JJButtonShakeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F558A21DB46E5100FD61E3 /* Debug */,
+				58F558A31DB46E5100FD61E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58F558A41DB46E5100FD61E3 /* Build configuration list for PBXNativeTarget "JJButtonShakeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F558A51DB46E5100FD61E3 /* Debug */,
+				58F558A61DB46E5100FD61E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F558691DB46E5100FD61E3 /* Project object */;
+}
